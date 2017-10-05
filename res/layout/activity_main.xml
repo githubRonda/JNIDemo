@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="hello"
+            android:text="传递空,返回String" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="add"
+            android:text="传递int,返回int" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="hello2"
+            android:text="传递String,返回String" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="changeArr"
+            android:text="传递int[],返回int[]" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="callbackVoidMethod"
+            android:singleLine="true"
+            android:text="C中反射调用java中的无形参的方法" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="callbackIntMethod"
+            android:singleLine="true"
+            android:text="C中反射调用java中的int形参方法" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="callbackStringMethod"
+            android:singleLine="true"
+            android:text="C中反射调用java中的String形参方法" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="callbackShowToast"
+            android:singleLine="true"
+            android:text="C中反射调用java中的showToast(String)方法" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpMeitu"
+            android:text="美图秀秀" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpPressure"
+            android:text="压力表" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+        
+         <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="fork"
+            android:text="fork进程(程序中止时重新打开程序，程序卸载时弹出网页)" />
+    </LinearLayout>
+
+</ScrollView>
